@@ -3,7 +3,7 @@ package svchealthcheck
 import (
 	"time"
 
-	srvfiber "github.com/jamillosantos/server-fiber"
+	srvfiber "github.com/jamillosantos/server-fiber/v2"
 )
 
 type Option func(*options)
