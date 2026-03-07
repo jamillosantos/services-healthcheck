@@ -1,6 +1,6 @@
-//go:generate go run github.com/golang/mock/mockgen -package hcfiber -destination=mocks_mock_test.go . Healthchecker,FiberApp
+//go:generate go run github.com/golang/mock/mockgen -package hcfiberv3 -destination=mocks_mock_test.go . Healthchecker,FiberApp
 
-package hcfiber
+package hcfiberv3
 
 import (
 	"encoding/json"
